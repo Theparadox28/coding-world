@@ -1,0 +1,74 @@
+/* navigation */
+body{
+    background-color: red;
+    /* overflow: hidden; */
+}
+/* container     */
+/* #container{ */
+    /* flex-direction: column; */
+    /* height: 270px; */
+/* } */
+ /* #container::before{
+    height: 477px;
+} */
+
+.navigation{
+    /* overflow: hidden; */
+    /* flex-direction: column; */
+    margin: 7px 142px;
+    height:47px;
+    width: 57px;
+    padding: 7px 37px;
+    flex-direction: row;
+}
+/* #navbar{
+    flex-direction: column;
+    /* overflow: hidden; */
+
+
+.item{
+    font-size: 9px;
+    margin: 7px -7px;
+    padding: 7px 9px;
+    flex-direction: row;
+    float: left;
+}
+
+
+ 
+.box{
+    height: 77px;
+    width: 27px;
+    margin: 197px 7px;
+    /* flex-direction: column; */
+
+}
+.box img{
+    height: 112px;
+    width: 67px;
+    margin: -17px 177px;
+
+
+}
+.box2{
+    height: 497px;
+    width: 27px;
+    margin: 67px 21px;
+    font-size: 7px;
+    padding: 7px 7px;
+}
+
+li.item{
+    padding: 7px 27px;
+}
+
+
+.heading{
+    font-size: 21px;
+}
+
+/* #container .box{ */
+    /* flex-direction: column; */
+
+
+/* } */

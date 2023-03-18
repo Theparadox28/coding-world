@@ -1,0 +1,266 @@
+body {
+
+    /* background:1000px     */
+    font-size: 25px;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gajraj One', cursive;
+    /* background-image: cover, */
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    height:97px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    position: relative;
+    /* padding: 27px 27px; */
+    /* height: 0; */
+
+
+}
+
+li {
+    display: flex;
+    /* height: 0; */
+    margin: 0%;
+    
+
+}
+
+.item {
+    color: red;
+    padding: 7px 27px;
+    /* border: 2px solid red; */
+    border-radius: 37px;
+    margin:27px 63px ;
+    font-size: 21px;
+}
+
+
+    /* height: 0; */
+    /* margin: 0%; */
+    
+
+
+
+h2 {
+    text-align: center;
+    font-size: 3.7rem;
+    color: orange;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* font-size: 7px; */
+
+}
+
+/* section::after{ */
+/* content: "this is my content"; */
+/* display: flex; */
+/* justify-content: center; */
+/* } */
+
+#home {
+    height: 577px;
+    background: url('m77.jpg') no-repeat center center/cover;
+    /* border: 17px solid rebeccapurple; */
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+
+}
+
+.item:hover {
+    cursor: pointer;
+    /* text-decoration: underline; */
+    color: red;
+    background-color: beige;
+    font-weight: bold;
+
+}
+
+h2:hover {
+    color: lightgrey;
+}
+
+.box {
+   height: 300px;
+   width: 200px;
+display: flex;
+justify-content: center;
+border: 2px solid red;
+padding: 27px 27px;
+border-radius: 12px;
+/* font-size: 7px; */
+margin: 77px 27px;
+/* background-image: url('satyam.jpg'); */
+/* position: absolute; */
+background-color: black;
+box-shadow: 7px 7px 7px bisque;
+transition: all 2s ease-in 0.7s;
+}
+
+.box :hover{
+    /* transform: rotate(360deg); */
+    transform: scale(0.7);
+}
+
+
+/* .box2 :hover{
+
+    /* transform: rotate(360deg); */
+    /* transform: scale(1.2);
+} */
+
+
+
+#container {
+    height: 577px;
+    background: url('m7.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+
+}
+ul{
+    height: 0;
+}
+#home::before{
+    content: '';
+    position: absolute;
+     background: url('m77.jpg');
+     
+     /*no-repeat center center/cover; */
+    height: 100%;
+    /* width: 100%; */
+    z-index: -1;
+    opacity: 0.77;
+
+}
+
+#container::before{
+    content: '';
+    position: absolute;
+    background: url('m7.jpg') ;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.77;
+
+}
+.navbar::before{
+    content: '';
+    position: absolute;
+    background-color: orange;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.77;
+
+}
+
+.btn{
+    padding: 7p 37px;
+    border: 2px solid rebeccapurple;
+    color: red;
+    background-color: beige;
+    font-size: 1.5rem;
+    margin: 17px;
+    border-radius: 27px;
+    font-family: 'Gajraj One', cursive;
+}
+.box img{
+    display: block;
+    margin: auto;
+    width: 37px;
+    height: 300px;
+    width: 200px;
+}
+
+#python{
+    background: url('m7.png') no-repeat center center/cover;
+    height: 577px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+.box2{
+    height: 377px;
+    width: 477px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
+border: 2px solid red;
+padding: 27px 27px;
+border-radius: 127px;
+margin: 237px 37px;
+/* background-image: url('satyam.jpg'); */
+/* position: absolute; */
+/* background-color: black; */
+font-size: 17px;
+color: darkblue;
+box-shadow: 7px 7px 7px bisque;
+/* transition: all 2s ease-in 0.7s; */
+    
+}
+
+.heading{
+    display: flex;
+    font-size: 3.7rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact{
+    background: url('mm7.jpg') no-repeat center center/cover;
+    height: 577px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-grp input
+{
+font-family: 'Gajraj One', cursive;
+text-align: center;
+font-size: 17px;
+margin: 7px auto;
+display: block;
+width: 277px;
+padding: 2px;
+border-radius: 17px;
+border: 7px solid black;}
+
+
+
+ @media screen and (max-width:400px) and (min-width:200px)
+ {
+  body{
+    font-style: italic;
+    font-weight: bold;
+    
+  }
+
+
+ }
